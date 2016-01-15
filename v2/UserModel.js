@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var urlDatabase = 'mongodb://michwii:Elyeshm1806@ds027335.mongolab.com:27335/prince';
+var urlDatabase = 'mongodb://localhost:27335/test';
 
 var connection = mongoose.connection;
 if(!connection.readyState){
