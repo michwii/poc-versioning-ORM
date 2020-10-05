@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var urlDatabase = 'mongodb://localhost:27335/test';
+var urlDatabase = 'mongodb://sample-api:Azerty1234@ds013599.mlab.com:13599/versioning-sample';
 
 var connection = mongoose.connection;
 if(!connection.readyState){
